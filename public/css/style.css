@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  margin: 143px;
+}
+
+.item {
+  width: 100%;
+}
+.item input {
+  height: 28px;
+  width: 210px;
+  padding: 5px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.item h3 {
+  font-size: 29px;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.item button {
+  border-style: none;
+  background-color: blueviolet;
+  font-size: 30px;
+  padding: 19px;
+  margin: 26px;
+  text-align: center;
+}
+
+h3,
+h1 {
+  padding: 5px;
+}

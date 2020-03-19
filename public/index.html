@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <form method="POST" action="/registered">
+        <div class="item">
+          <h3>Username</h3>
+          <input
+            type="text"
+            placeholder="Enter your name"
+            name="userName"
+            id="userName"
+          />
+        </div>
+        <div class="item">
+          <h3>Email</h3>
+          <input
+            type="email"
+            placeholder="Enter your Email"
+            name="userEmail"
+            id="userEmail"
+          />
+        </div>
+        <div class="item">
+          <h3>Password</h3>
+          <input
+            type="password"
+            placeholder="Enter your password"
+            name="userPassword"
+            id="userPassword"
+          />
+        </div>
+        <div class="item">
+          <h3>Re-Enter password</h3>
+          <input
+            type="password"
+            placeholder="Renter your password"
+            name="repeatPassword"
+            id="repeatPassword"
+          />
+        </div>
+        <div class="item">
+          <button type="submit" id="signup">Sign Up</button>
+        </div>
+      </form>
+      <h3>If you are already registered!</h3>
+      <h1><a href="/login">CLICK HERE </a></h1>
+    </div>
+  </body>
+</html>
