@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-shadow: 5px 5px 5px 10px #f98baf;
+  width: 433px;
+  height: 523px;
+  border: 1px dashed #e3dce3;
+  margin-left: 49px;
+  margin-top: 114px;
+}
+
+.container {
+  width: 100%;
+  margin: 100px 136px 0px 136px;
+}
+
+.item {
+  width: 100%;
+}
+.item input {
+  height: 28px;
+  width: 210px;
+  padding: 5px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.item h3 {
+  font-size: 29px;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.item button {
+  border-style: none;
+  background-color: blueviolet;
+  font-size: 30px;
+  padding: 19px;
+  margin: 30px 0px 0px 180px;
+  text-align: center;
+}

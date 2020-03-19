@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  text-align: center;
+  margin: 100px;
+}
+button {
+  border-style: none;
+  background-color: blueviolet;
+  font-size: 30px;
+  padding: 19px;
+  margin-left: 34%;
+  text-align: center;
+}
